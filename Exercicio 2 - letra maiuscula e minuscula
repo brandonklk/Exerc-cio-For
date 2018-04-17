@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <locale.h>
+#include <ctype.h>
+
+//Exercicio 2
+
+main(){
+	
+	char mm[200];
+	int i = 0,
+	    l = 0,
+	    tPalavra;
+	    
+	    printf("Digite uma palavra:");
+		  gets(mm);
+		
+		  tPalavra = strlen(mm) - 1;
+	    
+	    for(i = 0; i <= tPalavra; i++)
+		  {
+			    if(i %2 == 0)
+			    {
+				      putchar(toupper(mm[i]));
+			    }else{
+				      putchar(tolower(mm[i]));
+			    }
+			
+	    }	    
+	    printf("\n");
+		  system("pause");
+		  return 0;
+			    
+}
