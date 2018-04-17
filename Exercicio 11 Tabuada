@@ -13,10 +13,10 @@ main(){
 	    
 	    
 	    for(fator1 = 1; fator1 <= 10; fator1++)
-		{
+	    {
 	    	printf("Tabuada do %d", fator1);
 	    
-	    for(fator2 = 1; fator2 <= 10; fator2++){
+	        for(fator2 = 1; fator2 <= 10; fator2++){
 	       
 	        produto = fator1 * fator2;
 	        
