@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <locale.h>
+
+//Exercicio 4
+
+main(){
+      char palavra[50];
+      int  i,
+           frase,
+           contador;
+     
+     printf("Escreva uma frase: ");
+     gets(palavra);
+     
+     frase = 1;
+     
+     contador = strlen(palavra);
+     
+     for(i = 0; i <= contador; i++)
+     {
+         printf("%c", palavra[i]);
+         printf(" ");
+     }
+   return 0;
+}
