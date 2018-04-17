@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <string.h>
+
+//Exercicio 3.
+
+main(){
+	
+	char palavra[200];
+	int i,
+	    contador,
+	    fim,
+	    frase;
+	    
+	    printf("Digite uma frase: ");
+	    gets(palavra);
+	    
+	    contador = strlen(palavra);
+	    
+	    fim = palavra - 1;
+	    
+	    for(i = 0; i <= palavra; i++)
+		{
+	        if(frase[i]=='')
+			{
+	        	quantidade++;
+	        }	
+	    }
+	    printf("Sua frase possui a palavra: %d", palavra);
+    return 0;
+}
