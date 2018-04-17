@@ -14,22 +14,22 @@ main(){
 	    tPalavra;
 	    
 	    printf("Digite uma palavra:");
-		  gets(mm);
+	    gets(mm);
 		
-		  tPalavra = strlen(mm) - 1;
+	    tPalavra = strlen(mm) - 1;
 	    
 	    for(i = 0; i <= tPalavra; i++)
-		  {
-			    if(i %2 == 0)
-			    {
-				      putchar(toupper(mm[i]));
-			    }else{
-				      putchar(tolower(mm[i]));
-			    }
+	    {
+	         if(i %2 == 0)
+		 {
+		     putchar(toupper(mm[i]));
+		 }else{
+		     putchar(tolower(mm[i]));
+		 }
 			
-	    }	    
-	    printf("\n");
-		  system("pause");
-		  return 0;
-			    
+	    }	  
+	    
+	printf("\n");
+	system("pause");
+	return 0;			    
 }
