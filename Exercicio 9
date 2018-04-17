@@ -18,17 +18,17 @@ main(){
  	
  	    for (i=1; i<=num; i++)
 	    {
-  		   for (j=num; j<=i; j++)
+  		 for (j=num; j<=i; j++)
 		      printf ("");
 		
-  		   for (k=1; k<=i*1; k++)
-		     {
-			 if (n < num)
-		         {
-			      n++;
-			      printf ("%d", n);
-		         }
-		     }	
+  		 for (k=1; k<=i*1; k++)		     
+		 {
+		      if (n < num)
+		      {
+			  n++;
+			  printf ("%d", n);
+		      }
+		}	
   		printf ("\n");
  	 }
 	getchar ();
