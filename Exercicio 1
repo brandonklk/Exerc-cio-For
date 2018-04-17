@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+//Exercicio 1
+
+int main(){
+	      char palavra[200];
+	      int i, 
+            tamanho = 0,
+            totalVogais = 0, 
+            totalConsoantes = 0, 
+            totalNumeros = 0,
+            caracter = 0;
+	          
+              printf("\nDigite uma palavra;\n");
+	            fgets(palavra,sizeof(palavra),stdin);
+	
+	            tamanho = strlen(palavra);//carro
+	
+	            for(i=0; i < tamanho ; i++ ) 
+              {
+  		          caracter = (int)palavra[i];
+		            
+                    //verifica se é letra
+		                if((caracter >=65 && caracter <=90) || (caracter >=97 && caracter <=122))
+		          {		       
+                    //verifica vogais
+			              if((caracter != 65 && caracter != 69 && caracter != 73 && caracter != 79 && caracter != 85) && (caracter != 97 && caracter != 101 && caracter != 105 && caracter != 111 && caracter != 117) ) //consoantes segundo tabela ASCII
+			        {
+				            totalConsoantes++;
+		          }  
+			        else
+			        {
+				            totalVogais++;
+			        }	
+
+		          }			
+		              //verifica se caracter está dentro do range de numeros na tabela ascii
+		              if(caracter >=48 && caracter <=57)
+		          {
+			             totalNumeros++;
+		          }
+	
+	      //imprimi resultado
+	      printf("o total de consoantes sao: %d", totalConsoantes);
+	      printf("\n o total de vogais sao: %d", totalVogais);
+	      printf("\n total de letras: %d", (totalVogais + totalConsoantes));
+	      printf("\n total de numeros: %d", totalNumeros);
+	
+}
