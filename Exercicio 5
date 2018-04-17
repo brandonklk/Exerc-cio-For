@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <locale.h>
+
+//Exercicio 5
+
+main(){
+      char palavra[50];
+      int  i,
+           contador,
+           frase;
+            
+           setlocale(LC_ALL, "Portuguese");
+            
+       printf("Escreva uma frase ou uma palavra: "); 
+       gets(palavra);
+         
+       printf("\nMaiúscula: %s", strupr(palavra));
+       printf("\n\nMinúscula: %s", strlwr(palavra));
+
+}
