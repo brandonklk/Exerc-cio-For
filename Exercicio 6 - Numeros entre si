@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+#include<math.h>
+
+//Exercicio 6
+
+int main(){
+	      
+        int soma,
+	          numUm,
+	          numDois;
+	    
+	            printf("Digite o primeiro numero:\n");
+	            scanf("%d",&numUm);
+	
+	            printf("Digite o segundo numero\n");
+	            scanf("%d",&numDois);
+	
+	            soma = ((numDois - numUm + 1) * (numUm + numDois)) /2;
+	
+	            printf("A soma dos elementos entre eles = %d",soma);
+	
+}
