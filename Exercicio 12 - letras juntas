@@ -4,10 +4,10 @@
 
 void deslocaEsq(char *sVetor, int iIndice)
 {
-	      for(int i = iIndice; i < strlen(sVetor); i++)
+	for(int i = iIndice; i < strlen(sVetor); i++)
         {
-		            sVetor[i] = sVetor[i+1];
-	      }
+	     sVetor[i] = sVetor[i+1];
+	}
 }
 
 int main(){
