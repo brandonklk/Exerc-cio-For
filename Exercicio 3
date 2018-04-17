@@ -21,12 +21,13 @@ main(){
 	    fim = palavra - 1;
 	    
 	    for(i = 0; i <= palavra; i++)
+	    {
+	          if(frase[i]=='')
 		{
-	        if(frase[i]=='')
-			{
-	        	quantidade++;
+	            quantidade++;
 	        }	
 	    }
 	    printf("Sua frase possui a palavra: %d", palavra);
+	    
     return 0;
 }
