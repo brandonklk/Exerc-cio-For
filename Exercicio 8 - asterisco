@@ -16,11 +16,11 @@ main(){
  	   for (i=1; i<=num; i++)
 	   {
   		 for (j=num; j<=i; j++)
-		   printf ("");
+		      printf ("");
 		
   		 for (k=1; k<=i*1; k++)
-		   printf ("*");
-  		 printf ("\n");
+		      printf ("*");
+  		      printf ("\n");
  	   }
 	getchar ();
 	return 0;
