@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <locale.h>
+
+//Exercicio EXTRA
+
+main(){
+char palavra[50];
+int frase,
+    contador,
+    i;
+    
+           setlocale(LC_ALL,  "Portuguese");
+    
+       printf("Escreva uma palavra ou frase: ");
+       
+          frase = 1;
+       
+          gets(palavra);
+       
+          contador = strlen(palavra);
+              
+       for(i = 0; i <= contador; i++)
+       {
+             if(palavra[i] == ' ')
+             {
+                frase++;
+             }
+       }
+       
+       printf("A quantidade de letras são: %d ", frase);
+}
+
