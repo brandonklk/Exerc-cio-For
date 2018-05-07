@@ -7,7 +7,6 @@
 
 main(){
       char palavra[50];
-      int  i;
                        
            setlocale(LC_ALL, "Portuguese");
             
