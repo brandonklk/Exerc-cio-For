@@ -7,10 +7,8 @@
 
 main(){
       char palavra[50];
-      int  i,
-           contador,
-           frase;
-            
+      int  i;
+                       
            setlocale(LC_ALL, "Portuguese");
             
        printf("Escreva uma frase ou uma palavra: "); 
