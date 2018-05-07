@@ -16,12 +16,13 @@ main(){
 	    {
 	    	printf("Tabuada do %d", fator1);
 	    
-	        for(fator2 = 1; fator2 <= 10; fator2++){
+	        for(fator2 = 1; fator2 <= 10; fator2++)
+		{
 	       
-	        produto = fator1 * fator2;
+	        	produto = fator1 * fator2;
 	        
-	        printf("%d * %d = %d", fator1, fator2, produto);
+	        	printf("%d * %d = %d", fator1, fator2, produto);
 	    	
-	  }
+	  	}
 	    return 0;
 }
