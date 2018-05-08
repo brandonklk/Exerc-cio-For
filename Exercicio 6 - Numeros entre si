@@ -6,7 +6,7 @@
 
 //Exercicio 6
 
-int main(){
+main(){
 	      
         int soma,
 	    numUm,
