@@ -14,13 +14,13 @@ int main(){
 	    	
 	       setlocale(LC_ALL, "");
 	    	
-	       printf("Digite o primeiro numero:\n");
+	       printf("Digite o primeiro numero: ");
 	       scanf("%d", &numUm);
 	
-	       printf("Digite o segundo numero\n");
+	       printf("Digite o segundo numero: ");
 	       scanf("%d", &numDois);
 	
 	       soma = ((numDois - numUm + 1) * (numUm + numDois)) /2;
 	
-	       printf("A soma dos elementos entre eles é = %d",soma);	
+	       printf("\nA soma dos elementos entre eles é = %d",soma);	
 }
