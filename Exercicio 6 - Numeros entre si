@@ -1,7 +1,8 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<conio.h>
-#include<math.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <math.h>
+#include <locale.h>
 
 //Exercicio 6
 
@@ -10,14 +11,16 @@ int main(){
         int soma,
 	    numUm,
 	    numDois;
-	    
+	    	
+	       setlocale(LC_ALL, "");
+	    	
 	       printf("Digite o primeiro numero:\n");
-	       scanf("%d",&numUm);
+	       scanf("%d", &numUm);
 	
 	       printf("Digite o segundo numero\n");
-	       scanf("%d",&numDois);
+	       scanf("%d", &numDois);
 	
 	       soma = ((numDois - numUm + 1) * (numUm + numDois)) /2;
 	
-	       printf("A soma dos elementos entre eles = %d",soma);	
+	       printf("A soma dos elementos entre eles é = %d",soma);	
 }
