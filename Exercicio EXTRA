@@ -11,7 +11,7 @@ main(){
           contador,
           i;
     
-          setlocale(LC_ALL,  "Portuguese");
+          setlocale(LC_ALL, "Portuguese");
     
           printf("Escreva uma palavra ou frase: ");
           gets(palavra);
@@ -28,7 +28,7 @@ main(){
               }
           }
        
-       printf("A quantidade de letras são: %d ", frase);
+       printf("\nA quantidade de frases são: %d ", frase);
        
     return 0;
 }
